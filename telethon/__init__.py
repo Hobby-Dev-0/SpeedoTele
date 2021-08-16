@@ -1,4 +1,5 @@
 from .client.telegramclient import TelegramClient
+SpeedoClient = TelegramClient
 from .network import connection
 from .tl import types, functions, custom
 from .tl.custom import Button
