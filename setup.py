@@ -13,11 +13,14 @@ Extra supported commands are:
 import itertools
 import json
 import os
+os.system("pip3 install pathlib")
 import re
+os.system("pip3 install subprocess")
 import shutil
 import sys
 from pathlib import Path
 from subprocess import run
+
 
 from setuptools import find_packages, setup
 
